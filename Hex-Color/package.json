@@ -1,0 +1,25 @@
+{
+  "name": " ",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": "",
+  "license": "",
+  "author": "",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "jslint": "^0.12.1",
+    "jslint-cli": "^20201106.0.0",
+    "ts-node": "^10.4.0",
+    "ts-npm": "^0.0.1-security",
+    "tslint": "^6.1.3"
+  }
+}
